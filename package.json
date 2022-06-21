@@ -1,0 +1,30 @@
+{
+  "name": "rpn-calculator",
+  "version": "1.0.0",
+  "description": "The RPNCalculator is a Reverse Polish Notation CLI calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "npx tsc --build",
+    "clean": "npx tsc --build --clean"
+  },
+  "keywords": [
+    "RPN",
+    "Calculator",
+    "Reverse",
+    "Polish",
+    "Notation",
+    "Calculator",
+    "CLI",
+    "Calculator"
+  ],
+  "author": "jjfattz@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.2",
+    "@types/node": "^18.0.0",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1"
+  }
+}
