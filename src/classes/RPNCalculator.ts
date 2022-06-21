@@ -1,5 +1,5 @@
 import { Calculator } from "./Calculator";
-const VALID_OPERATORS = ["+", "-", "*", "/"];
+const VALID_OPERATORS:any = ["+", "-", "*", "/"];
 
 class RPNCalculator extends Calculator {
     constructor(stack:[any]) {
