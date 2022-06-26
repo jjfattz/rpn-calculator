@@ -4,11 +4,15 @@
 
 This is a CLI Reverse Polish Notation (RPN) calculator written in TypeScript.  RPN is a mathematical notation in which operators follow their operands.  Instead of `5 + 4` RPN would be represented as `5 4 +`.  RPN really shines when processing large equations.
 
-This app is written in TypeScript running on NodeJS. Unit tests are handled with the Jest framework.  Architecturally, the code is written in resusable OOP classes so it can be used in other contexts aside from a CLI implementation.
+This app is written in TypeScript running on NodeJS. Unit tests are handled with the Jest framework.  The application is structured with resusable OOP classes so it can be used in other contexts aside from a CLI implementation.
+
+## See it in action
+
+You can [check it out here](https://google.com) in a simulated web based CLI environment.
 
 ## Tradeoffs and Improvements
 
-Only the four basic operations are included in this calculator (+, -, *, /).  If I were to spend more time on this I would implement more operators.  
+Only the four basic operations are included in this calculator (+, -, *, /).  If I were to spend more time on this I would implement more operators and more comprehensive test coverage.
 
 ## Setup & build Instructions
 
@@ -71,7 +75,7 @@ q
 > Calculator has been closed.
 ```
 
-## Running tests
+## Tests
 
 Run the following command to run tests and see test coverage:
 
