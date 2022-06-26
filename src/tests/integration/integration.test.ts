@@ -1,7 +1,13 @@
 import { RPNCalculator } from "../../classes/RPNCalculator";
 
 describe("Integration test of RPNCalculator", () => {
-    it("Sanity check", () => {
-        expect(true).toEqual(true);
+    const calculator = new RPNCalculator();
+
+    beforeEach(() => {
+        calculator.clearStack();
+    });
+
+    it("Processes input", () => {
+        
     })
 })

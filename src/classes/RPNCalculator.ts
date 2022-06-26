@@ -92,18 +92,18 @@ class RPNCalculator extends Calculator {
 
     setStack(stack:any[]):void {
         this.clearStack();
-        stack.forEach(item => {
+        this.appendToStack(stack);
+    }
+
+    appendToStack(items:any[]):void {
+        items.forEach(item => {
             this.addItemToStack(item);
         });
     }
 
-    appendToStack(items:any[]):void {
-        this.input_stack = [...this.input_stack, ...items];
-    }
-
     itemIsValid(item:any):boolean {
         if(isNaN(Number(item)) && !VALID_OPERATORS.includes(item)) {
-            throw new TypeError(`Input must be a valid number or operator.`);
+            throw new TypeError(`Input must be a valid number or operator (${VALID_OPERATORS}).`);
         }
         return true;
     }
