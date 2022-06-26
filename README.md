@@ -22,13 +22,13 @@ Once the build command above has been executed, you can run the "calculator.js" 
 
 `node dist/src/calculator.js`
 
-Alternatively, you can run the TypeScript version using `ts-node`.
+Alternatively, you can run the TypeScript version using `ts-node` without running build.
 
 `npx ts-node src/calculator.ts` 
 
-### Example usage
+## Example usage
 
-#### Run the program
+### Run the program
 `npx ts-node src/calculator.ts`
 ```
 ===== RPN CALCULATOR =====
@@ -43,19 +43,19 @@ Alternatively, you can run the TypeScript version using `ts-node`.
 BEGIN!
 ```
 
-#### Enter operations all in one line
+### Enter operations all in one line
 ```
 5 5 5 8 + + -
 > -13
 ```
 
-#### Clear the calculator stack
+### Clear the calculator stack
 ```
 c
 > 0
 ```
 
-#### Enter operations one at a time
+### Enter operations one at a time
 ```
 5
 > 5
@@ -65,7 +65,7 @@ c
 > 9
 ```
 
-#### Quit the program
+### Quit the program
 ```
 q
 > Calculator has been closed.
