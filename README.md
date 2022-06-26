@@ -14,7 +14,7 @@ This is a CLI Reverse Polish Notation (RPN) calculator written in TypeScript.
 
 Once the build command above has been executed, you can run the "calculator.js" file in the "dist" folder.
 
-`node dist/calculator.js`
+`node dist/src/calculator.js`
 
 Alternatively, you can run the TypeScript version using `ts-node`.
 
