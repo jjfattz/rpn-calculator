@@ -1,12 +1,16 @@
 import { RPNCalculator } from "./classes/RPNCalculator";
 const calculator = new RPNCalculator();
 
-console.log("---- RPN CALCULATOR ----");
+console.log("===== RPN CALCULATOR =====");
 console.log("- Instructions:");
-console.log("  -- Enter operations all in one line separated by spaces (5 4 +)");
-console.log("  -- Or, enter operations one at a time");
-console.log("  -- Enter c to clear the calculator");
-console.log("  -- Enter q or press ctrl+c to quit");
+console.log("  - Enter operations all in one line separated by spaces (5 4 +)");
+console.log("  - Or, enter operations one at a time");
+console.log("    5");
+console.log("    4");
+console.log("    +");
+console.log("  - Enter c to clear the calculator");
+console.log("  - Enter q or press ctrl+c to quit");
+console.log("BEGIN!");
 
 process.stdin.setEncoding ("utf-8");
 process.stdin.on('readable', () => {
