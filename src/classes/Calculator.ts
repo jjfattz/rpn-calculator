@@ -18,4 +18,4 @@ class Calculator {
     }
 }
 
-export { Calculator };
+export default Calculator;

@@ -11,7 +11,7 @@
 
 ## Demo
 
-You can [check it out here](https://www.youtube.com/watch?v=xvFZjo5PgG0) running in a simulated web based CLI environment.  Alternatively, there is [another demo here](https://rpncalculator-demo.github.io) if the first one isn't working.
+You can [check it out here](https://www.youtube.com/watch?v=xvFZjo5PgG0) running in a simulated web based CLI environment.  Alternatively, there is [another demo here](https://jjfattz.github.io/rpncalculator-demo.github.io/) if the first one isn't working.
 
 ## Installation
 

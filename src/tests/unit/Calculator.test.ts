@@ -1,4 +1,4 @@
-import { Calculator } from "../../classes/Calculator";
+import Calculator from "../../classes/Calculator";
 describe("Testing the Calculator class", () => {
     const basic_calculator = new Calculator();
     it("Performs arithmetic operations", () => {

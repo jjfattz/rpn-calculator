@@ -1,4 +1,4 @@
-import { RPNCalculator } from "./classes/RPNCalculator";
+import RPNCalculator from "./classes/RPNCalculator";
 const calculator = new RPNCalculator();
 
 console.log("===== RPN CALCULATOR =====");

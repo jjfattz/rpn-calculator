@@ -1,4 +1,4 @@
-import { RPNCalculator } from "../../classes/RPNCalculator";
+import RPNCalculator from "../../classes/RPNCalculator";
 
 describe("RPNCalculator class unit tests", () => {
     const calculator = new RPNCalculator();

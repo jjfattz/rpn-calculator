@@ -1,4 +1,4 @@
-import { Calculator } from "./Calculator";
+import Calculator from "./Calculator";
 const VALID_OPERATORS:any = ["+", "-", "*", "/"];
 
 interface Options {
@@ -109,4 +109,4 @@ class RPNCalculator extends Calculator {
     }
 }
 
-export { RPNCalculator };
+export default RPNCalculator;
