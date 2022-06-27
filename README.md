@@ -9,10 +9,9 @@
 [![Test Jest](https://img.shields.io/badge/test-Jest-yellow?)](https://jestjs.io/)
 [![License MIT](https://img.shields.io/badge/license-MIT-yellowgreen?)](https://opensource.org/licenses/MIT)
 
-
 ## Demo
 
-You can [check it out here](https://google.com) running in a simulated web based CLI environment.
+You can [check it out here](https://www.youtube.com/watch?v=xvFZjo5PgG0) running in a simulated web based CLI environment.  Alternatively, there is [another demo here](https://rpncalculator-demo.github.io) if the first one isn't working.
 
 ## Installation
 
@@ -46,7 +45,6 @@ Only the four basic operations are included in this calculator (+, -, *, /).  If
 To run tests, run the following command
 
 `npm test`
-
 
 ## Usage/Examples
 
