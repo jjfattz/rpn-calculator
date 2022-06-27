@@ -91,3 +91,7 @@ c
 q
 > Calculator has been closed.
 ```
+
+## License
+
+RPN Calculator is released under the terms of the MIT license. See https://opensource.org/licenses/MIT for more information.
