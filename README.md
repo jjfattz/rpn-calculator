@@ -1,16 +1,13 @@
 
 # RPN Calculator
 
-This is a CLI Reverse Polish Notation (RPN) calculator written in TypeScript.  RPN is a mathematical notation in which operators follow their operands.  Instead of `5 + 4` RPN would be represented as `5 4 +`.  RPN really shines when processing large equations.
+[Reverse Polish Notation (RPN)](https://en.wikipedia.org/wiki/Reverse_Polish_notation) is a mathematical notation in which operators follow their operands.  An example of `5 + 4` written in RPN would be represented as `5 4 +`.  RPN is parenthesis-free and really shines when computing large equations.
 
-This app is written in TypeScript running on NodeJS. Unit tests are handled with the Jest framework.  The application is structured with resusable OOP classes so it can be used in other contexts aside from a CLI implementation.
-
-
-[![MIT License](https://img.shields.io/badge/build-Passing-brightgreen?)](#)
-[![MIT License](https://img.shields.io/badge/code-TypeScript-blue?)](https://www.typescriptlang.org/)
-[![MIT License](https://img.shields.io/badge/node-Latest-green?)](https://nodejs.org/en/)
-[![MIT License](https://img.shields.io/badge/test-Jest-yellow?)](https://jestjs.io/)
-[![MIT License](https://img.shields.io/badge/license-MIT-yellowgreen?)](https://opensource.org/licenses/MIT)
+[![Build passing](https://img.shields.io/badge/build-Passing-brightgreen?)](#)
+[![Code TypeScript](https://img.shields.io/badge/code-TypeScript-blue?)](https://www.typescriptlang.org/)
+[![Node Latest](https://img.shields.io/badge/node-Latest-green?)](https://nodejs.org/en/)
+[![Test Jest](https://img.shields.io/badge/test-Jest-yellow?)](https://jestjs.io/)
+[![License MIT](https://img.shields.io/badge/license-MIT-yellowgreen?)](https://opensource.org/licenses/MIT)
 
 
 ## Demo
