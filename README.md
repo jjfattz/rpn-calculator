@@ -1,5 +1,5 @@
 
-# RPN Calculator
+# RPN Calculator (CLI)
 
 [Reverse Polish Notation (RPN)](https://en.wikipedia.org/wiki/Reverse_Polish_notation) is a mathematical notation in which operators follow their operands.  An example of `5 + 4` written in RPN would be represented as `5 4 +`.  RPN is parenthesis-free and really shines when computing large equations.
 
